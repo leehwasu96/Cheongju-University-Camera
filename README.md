@@ -237,11 +237,60 @@ To set up the project, follow these steps:<br><br>
   <br>
 
   If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.<br>
-
-  7-3. Download all the Python practice codes located in the Gazebo simulation source code folder within the Practice source code folder in the GitHub repository to the scripts folder in the ackermann_vehicle_gazebo package on your local PC.<br>
+![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br>
+  ```shell
+  cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_straight/materials/textures
+  ```
+  Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.<br>
+  
+  ```shell
+  cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_curve/materials/textures
+  ```
+  Replace the 'road_curve.png' file with the new 'road_curve.png' file located in the images folder within the Practice source code folder in the GitHub repository.<br><br>
+  
+  
+  7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.<br><br>
 
   7-4. Practice detecting white and yellow lanes in the Gazebo simulation track.
   ```shell
-  cd ~/catkin_ws/src/
+  cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
+  ```
+  <br>
+
+  ```shell
+  python3 lane_detection.py
+  ```
+  <br>
+
+  7-5. Practice detecting white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.
+  ```shell
+  cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
+  ```
+  <br>
+
+  ```shell
+  python3 bev_lane_detection.py
+  ```
+  <br>
+
+  7-6. Practice detecting and tracking white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.
+  ```shell
+  cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
+  ```
+  <br>
+
+  ```shell
+  python3 bev_lane_detection_and_tracking.py
+  ```
+  <br>
+
+  7-7. Practice detecting white and yellow lanes, extracting midpoints, and following them after converting the camera image to a bird's-eye view in the Gazebo simulation track.
+  ```shell
+  cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
+  ```
+  <br>
+
+  ```shell
+  python3 bev_lane_detection_and_tracking2.py
   ```
   <br>
