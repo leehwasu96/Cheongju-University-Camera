@@ -57,6 +57,7 @@ To set up the project, follow these steps:<br><br>
   )
   ```
   <br>
+  
   ```shell
   gedit package.xml
   ```
