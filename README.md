@@ -252,7 +252,7 @@ To set up the project, follow these steps:<br><br>
   <br>
 
   If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.<br><br>
-![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br>
+![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br><br>
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_straight/materials/textures
   ```
