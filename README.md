@@ -11,7 +11,7 @@
   "Camera Lecture Notes (1).pdf is the Camera(OpenCV) lecture notes."<br><br>
   "Camera Lecture Notes (2).pdf is the Camera(YOLO v8) lecture notes."<br><br>
 
-# Python OpenCV practice command
+# Commands for practicing OpenCV(Python) based on ROS.
 
 Please note that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
@@ -66,3 +66,15 @@ To set up the project, follow these steps:<br><br>
   <exec_depend>opencv</exec_depend>
   ```
 <br><br>
+
+4. Create a 'scripts' folder for practicing OpenCV and build the catkin workspace:
+  ```shell
+  cd ~/catkin_ws/src/opencv_test
+  ```
+  ```shell
+  mkdir scripts
+  ```
+  ```shell
+  cd scripts
+  ```
+  Download the Python practice code located in the OpenCV example source code folder within the   Practice source code folder from the GitHub repository to the 'scripts' folder.
