@@ -100,6 +100,5 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd images
   ```
-  Download the Python practice code located in the images folder within the Practice source code folder from the GitHub repository to the 'images' folder.
-
+  Download the practice images located in the images folder within the Practice source code folder from the GitHub repository to the 'images' folder.
   <br><br>
