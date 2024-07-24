@@ -110,6 +110,7 @@ To set up the project, follow these steps:<br><br>
   <br>
   Note: Ensure to set the 'image_path' variable correctly within each Python practice code.
   <br>
+  
   6-1. Practice displaying images using OpenCV.
   
   ```shell
