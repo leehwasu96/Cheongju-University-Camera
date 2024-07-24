@@ -169,6 +169,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   python3 hough_hsv_lane_detection.py
   ```
+  <br><br>
 
 
 7. Practice lane detection and tracking using the ROS Gazebo simulation environment:
