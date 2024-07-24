@@ -56,6 +56,7 @@ To set up the project, follow these steps:<br><br>
     ${OpenCV_INCLUDE_DIRS}
   )
   ```
+  <br><br>
   ```shell
   gedit package.xml
   ```
