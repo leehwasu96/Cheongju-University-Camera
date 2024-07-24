@@ -8,8 +8,8 @@
   Date : 24.07.15 ~ 24.07.17<br><br>
 
 # Camera(OpenCV) Lecture Note Description
-  "Camera Lecture Notes (1).pdf is the Camera lecture notes."<br><br>
-  "Camera Lecture Notes (2).pdf is the Camera lecture notes."<br><br>
+  "Camera Lecture Notes (1).pdf is the Camera(OpenCV) lecture notes."<br><br>
+  "Camera Lecture Notes (2).pdf is the Camera(YOLO v8) lecture notes."<br><br>
 
 # Python OpenCV practice command
 
