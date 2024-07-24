@@ -25,11 +25,13 @@ To set up the project, follow these steps:<br><br>
   or
   ```shell
   pip3 install opencv-python
-  ```<br>
+  ```
+  <br>
   
   ```shell
   pip install numpy
-  ```<br><br>
+  ```
+  <br><br>
 
 2. Create a package for practicing OpenCV in the ROS Noetic environment:
   ```shell
@@ -38,7 +40,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   catkin_create_pkg opencv_test rospy std_msgs sensor_msgs cv_bridge
   ```
-<br><br>
+  <br><br>
 
 3. Set up CV bridge for integrating OpenCV with the ROS environment:
   ```shell
