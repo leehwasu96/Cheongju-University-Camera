@@ -78,7 +78,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd scripts
   ```
-  Download the Python practice code located in the OpenCV example source code folder within the   Practice source code folder from the GitHub repository to the 'scripts' folder.
+  Download the Python practice code located in the OpenCV example source code folder within the Practice source code folder in the GitHub repository to the 'scripts' folder.
   ```shell
   chmod +x *
   ```
@@ -100,5 +100,5 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd images
   ```
-  Download the practice images located in the images folder within the Practice source code folder from the GitHub repository to the 'images' folder.
+  Download the files 'image.jpg', 'road1.jpg', and 'road2.jpg' from the images folder within the Practice source code folder in the GitHub repository to the 'images' folder.
   <br><br>
