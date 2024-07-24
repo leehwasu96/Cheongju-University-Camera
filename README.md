@@ -8,10 +8,10 @@
   Date : 24.07.15 ~ 24.07.17<br><br>
 
 # Camera(OpenCV) Lecture Note Description
-  "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
-  "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
+  "Camera Lecture Notes (1).pdf is the Camera lecture notes."<br><br>
+  "Camera Lecture Notes (2).pdf is the Camera lecture notes."<br><br>
 
-# SLAM(Simultaneous Localization<br>And Mapping) practice command
+# Python OpenCV practice command
 
 Please note that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
