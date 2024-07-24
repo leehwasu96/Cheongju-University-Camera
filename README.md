@@ -111,43 +111,42 @@ To set up the project, follow these steps:<br><br>
   Note: Ensure to set the 'image_path' variable correctly to the path on your local PC within each Python practice code.<br><br>
   
   6-1. Practice displaying images using OpenCV.
-  
   ```shell
   python3 show_image.py
   ```
   <br>
+
   6-2. Practice converting images to gray scale using OpenCV.
-  
   ```shell
   python3 show_gray_scale_image.py
   ```
   <br>
+
   6-3. Practice edge detection in images using OpenCV.
-  
   ```shell
   python3 show_edge_image.py
   ```
   <br>
+
   6-4. Practice contour detection in images using OpenCV.
-  
   ```shell
   python3 show_contour_image.py
   ```
   <br>
+
   6-5. Practice image rotation, resizing, and skew transformations using OpenCV.
-  
   ```shell
   python3 show_turn_resize_affine_image.py
   ```
   <br>
+
   6-6. Practice image filtering using Gaussian blur in OpenCV.
-  
   ```shell
   python3 show_blurred_image.py
   ```
   <br>
-  6-7. Practice face detection in images using OpenCV.
-  
+
+  6-7. Practice face detection in images using OpenCV.  
   ```shell
   python3 show_face_detection_image.py
   ```
@@ -158,14 +157,65 @@ To set up the project, follow these steps:<br><br>
   python3 hough_lane_detection.py
   ```
   <br>
+
   6-9. Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.
-  
   ```shell
   python3 hsv_lane_detection.py
   ```
   <br>
+
   6-10. Practice lane detection in images using Hough transform and HSV(Hue+Saturation+Value) in OpenCV.
   
   ```shell
   python3 hough_hsv_lane_detection.py
   ```
+
+
+7. Practice lane detection and tracking using the ROS Gazebo simulation environment:
+  
+  7-1. ROS Gazebo simulation environment setup.
+  ```shell
+  cd ~/catkin_ws/src/
+  ```
+  <br>
+
+  ```shell
+  git clone https://github.com/gihoonbackend/ackermann_vehicle.git
+  ```
+  or
+  ```shell
+  git clone https://github.com/0-keun/ackermann_vehicle.git
+  ```
+  <br>
+
+  ```shell
+  sudo apt install ros-noetic-ackermann-msgs
+  ```
+  <br>
+
+  ```shell
+  cd ..
+  ```
+  <br>
+
+  ```shell
+  rosdep install --from-paths src --ignore-src -r –y
+  ```
+  <br>
+
+  ```shell
+  catkin_make
+  ```
+  <br>
+
+  ```shell
+  source devel/setup.bash
+  ```
+  <br>
+
+
+  7-2. ~~.
+  ```shell
+  ~~
+  ```
+  <br>
