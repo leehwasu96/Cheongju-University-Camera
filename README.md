@@ -46,6 +46,9 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd opencv_test
   ```
+  <br>
+
+  Modify the 'CMakeLists.txt' file.
   ```shell
   gedit CMakeLists.txt
   ```
@@ -58,6 +61,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
   
+  Modify the 'package.xml' file.
   ```shell
   gedit package.xml
   ```
@@ -78,7 +82,10 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd scripts
   ```
-  Download the Python practice code located in the OpenCV example source code folder within the Practice source code folder in the GitHub repository to the 'scripts' folder.
+  <br>
+
+  Download the Python practice code located in the OpenCV example source code folder within the Practice source code folder in the GitHub repository to the 'scripts' folder.<br>
+  
   ```shell
   chmod +x *
   ```
@@ -100,6 +107,8 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd images
   ```
+  <br>
+
   Download the files 'image.jpg', 'road1.jpg', and 'road2.jpg' from the images folder within the Practice source code folder in the GitHub repository to the 'images' folder.
   <br><br><br>
 
@@ -108,6 +117,7 @@ To set up the project, follow these steps:<br><br>
   cd ~/catkin_ws/src/opencv_test/scripts
   ```
   <br>
+
   Note: Ensure to set the 'image_path' variable correctly to the path on your local PC within each Python practice code.<br><br>
   
   6-1. Practice displaying images using OpenCV.
@@ -218,10 +228,14 @@ To set up the project, follow these steps:<br><br>
   ```shell
   gedit ~/.bashrc
   ```
-  Caution: Make sure to accurately write the path on your local PC.
+  <br>
+
+  Caution: Make sure to accurately write the path on your local PC.<br>
+  
   ```shell
   export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/{your PC name}/catkin_ws/src/ackermann_vehicle/roadmap_generator
   ```
+
   ```shell
   source ~/.bashrc
   ```
@@ -241,13 +255,16 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_straight/materials/textures
   ```
-  Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.<br>
+  <br>
+
+  Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.<br><br>
   
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_curve/materials/textures
   ```
+  <br>
+
   Replace the 'road_curve.png' file with the new 'road_curve.png' file located in the images folder within the Practice source code folder in the GitHub repository.<br><br>
-  
   
   7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.<br><br>
 
