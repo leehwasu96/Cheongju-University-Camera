@@ -214,6 +214,16 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
+  ```shell
+  gedit ~/.bashrc
+  ```
+  ```shell
+  export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/{your PC name}/catkin_ws/src/ackermann_vehicle/roadmap_generator
+  ```
+  ```shell
+  source ~/.bashrc
+  ```
+  <br>
 
   7-2. ~~.
   ```shell
