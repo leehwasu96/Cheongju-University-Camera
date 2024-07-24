@@ -108,61 +108,61 @@ To set up the project, follow these steps:<br><br>
   cd ~/catkin_ws/src/opencv_test/scripts
   ```
   <br>
-  Practice displaying images using OpenCV.
+  6-1. Practice displaying images using OpenCV.
   
   ```shell
   python3 show_image.py
   ```
   <br>
-  Practice converting images to gray scale using OpenCV.
+  6-2. Practice converting images to gray scale using OpenCV.
   
   ```shell
   python3 show_gray_scale_image.py
   ```
   <br>
-  Practice edge detection in images using OpenCV.
+  6-3. Practice edge detection in images using OpenCV.
   
   ```shell
   python3 show_edge_image.py
   ```
   <br>
-  Practice contour detection in images using OpenCV.
+  6-4. Practice contour detection in images using OpenCV.
   
   ```shell
   python3 show_contour_image.py
   ```
   <br>
-  Practice image rotation, resizing, and skew transformations using OpenCV.
+  6-5. Practice image rotation, resizing, and skew transformations using OpenCV.
   
   ```shell
   python3 show_turn_resize_affine_image.py
   ```
   <br>
-  Practice image filtering using Gaussian blur in OpenCV.
+  6-6. Practice image filtering using Gaussian blur in OpenCV.
   
   ```shell
   python3 show_blurred_image.py
   ```
   <br>
-  Practice face detection in images using OpenCV.
+  6-7. Practice face detection in images using OpenCV.
   
   ```shell
   python3 show_face_detection_image.py
   ```
   <br>
-  Practice lane detection in images using Hough transform in OpenCV.
+  6-8. Practice lane detection in images using Hough transform in OpenCV.
   
   ```shell
   python3 hough_lane_detection.py
   ```
   <br>
-  Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.
+  6-9. Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.
   
   ```shell
   python3 hsv_lane_detection.py
   ```
   <br>
-  Practice lane detection in images using Hough transform and HSV(Hue+Saturation+Value) in OpenCV.
+  6-10. Practice lane detection in images using Hough transform and HSV(Hue+Saturation+Value) in OpenCV.
   
   ```shell
   python3 hough_hsv_lane_detection.py
