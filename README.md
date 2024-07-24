@@ -101,7 +101,7 @@ To set up the project, follow these steps:<br><br>
   cd images
   ```
   Download the files 'image.jpg', 'road1.jpg', and 'road2.jpg' from the images folder within the Practice source code folder in the GitHub repository to the 'images' folder.
-  <br><br>
+  <br><br><br>
 
 6. Perform OpenCV practice in the ROS environment:
   ```shell
