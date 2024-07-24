@@ -214,9 +214,11 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
+  Set Gazebo simulation environment variables in the bashrc file and perform sourcing.
   ```shell
   gedit ~/.bashrc
   ```
+  Caution: Make sure to accurately write the path on your local PC.
   ```shell
   export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/{your PC name}/catkin_ws/src/ackermann_vehicle/roadmap_generator
   ```
@@ -225,8 +227,21 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  7-2. ~~.
+  7-2. Run the ROS Gazebo simulation environment.
   ```shell
-  ~~
+  cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/launch
+  ```
+  ```shell
+  roslaunch ackermann_vehicle_noetic.launch
+  ```
+  <br>
+
+  If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.<br>
+
+  7-3. Download all the Python practice codes located in the Gazebo simulation source code folder within the Practice source code folder in the GitHub repository to the scripts folder in the ackermann_vehicle_gazebo package on your local PC.<br>
+
+  7-4. Practice detecting white and yellow lanes in the Gazebo simulation track.
+  ```shell
+  cd ~/catkin_ws/src/
   ```
   <br>
