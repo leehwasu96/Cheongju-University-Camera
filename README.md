@@ -108,6 +108,8 @@ To set up the project, follow these steps:<br><br>
   cd ~/catkin_ws/src/opencv_test/scripts
   ```
   <br>
+  Note: Ensure to set the 'image_path' variable correctly within each Python practice code.
+  <br>
   6-1. Practice displaying images using OpenCV.
   
   ```shell
