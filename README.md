@@ -88,3 +88,15 @@ To set up the project, follow these steps:<br><br>
   ```shell
   source devel/setup.bash
   ```
+
+5. Create a 'images' folder for practicing OpenCV:
+  ```shell
+  cd ~/catkin_ws/src/opencv_test
+  ```
+  ```shell
+  mkdir images
+  ```
+  ```shell
+  cd images
+  ```
+  Download the Python practice code located in the images folder within the Practice source code folder from the GitHub repository to the 'images' folder.
