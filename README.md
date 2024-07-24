@@ -10,7 +10,7 @@
 # Camera(OpenCV) Lecture Note Description
   "Camera Lecture Notes (1).pdf" file is the Camera(OpenCV) lecture notes.<br><br>
   "Camera Lecture Notes (2).pdf" file is the Camera(YOLO v8) lecture notes.<br><br>
-  "Practice source code" folder is a directory that contains Python example codes related to OpenCV practice.
+  "Practice source code" folder is a directory that contains Python example codes related to OpenCV practice.<br><br>
 
 # Commands for practicing OpenCV(Python) based on ROS.
 
