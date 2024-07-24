@@ -91,7 +91,7 @@ To set up the project, follow these steps:<br><br>
   chmod +x *
   ```
   ```shell
-  cd ~/catkin_ws/ && catkin_make
+  cd ~/catkin_ws && catkin_make
   ```
   ```shell
   source devel/setup.bash
