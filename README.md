@@ -26,6 +26,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   pip3 install opencv-python
   ```
+  <br>
   ```shell
   pip install numpy
   ```
