@@ -25,12 +25,11 @@ To set up the project, follow these steps:<br><br>
   or
   ```shell
   pip3 install opencv-python
-  ```
-  <br>
+  ```<br>
+  
   ```shell
   pip install numpy
-  ```
-<br><br>
+  ```<br><br>
 
 2. Create a package for practicing OpenCV in the ROS Noetic environment:
   ```shell
