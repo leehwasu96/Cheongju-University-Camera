@@ -79,3 +79,12 @@ To set up the project, follow these steps:<br><br>
   cd scripts
   ```
   Download the Python practice code located in the OpenCV example source code folder within the   Practice source code folder from the GitHub repository to the 'scripts' folder.
+  ```shell
+  chmod +x *
+  ```
+  ```shell
+  cd ~/catkin_ws/ && catkin_make
+  ```
+  ```shell
+  source devel/setup.bash
+  ```
