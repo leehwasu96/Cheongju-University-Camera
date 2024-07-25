@@ -120,63 +120,63 @@ To set up the project, follow these steps:<br><br>
 
   Note: Ensure to set the 'image_path' variable correctly to the path on your local PC within each Python practice code.<br><br>
   
-  **6-1. Practice displaying images using OpenCV.**
+  **6-1. Practice displaying images using OpenCV.** <br>
   ```shell
   python3 show_image.py
   ```
   <br>
 
-  **6-2. Practice converting images to gray scale using OpenCV.**
+  **6-2. Practice converting images to gray scale using OpenCV.** <br>
   ```shell
   python3 show_gray_scale_image.py
   ```
   <br>
 
-  **6-3. Practice edge detection in images using OpenCV.**
+  **6-3. Practice edge detection in images using OpenCV.** <br>
   ```shell
   python3 show_edge_image.py
   ```
   <br>
 
-  **6-4. Practice contour detection in images using OpenCV.**
+  **6-4. Practice contour detection in images using OpenCV.** <br>
   ```shell
   python3 show_contour_image.py
   ```
   <br>
 
-  **6-5. Practice image rotation, resizing, and skew transformations using OpenCV.**
+  **6-5. Practice image rotation, resizing, and skew transformations using OpenCV.** <br>
   ```shell
   python3 show_turn_resize_affine_image.py
   ```
   <br>
 
-  **6-6. Practice image filtering using Gaussian blur in OpenCV.**
+  **6-6. Practice image filtering using Gaussian blur in OpenCV.** <br>
   ```shell
   python3 show_blurred_image.py
   ```
   <br>
 
-  **6-7. Practice face detection in images using OpenCV.**
+  **6-7. Practice face detection in images using OpenCV.** <br>
   ```shell
   python3 show_face_detection_image.py
   ```
   <br>
   
-  **6-8. Practice lane detection in images using Hough transform in OpenCV.**
+  **6-8. Practice lane detection in images using Hough transform in OpenCV.** <br>
   
   ```shell
   python3 hough_lane_detection.py
   ```
   <br>
 
-  **6-9. Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.**
+  **6-9. Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.** <br>
   ```shell
   python3 hsv_lane_detection.py
   ```
   <br>
 
   **6-10. Practice lane detection in images using<br> 
-  Hough transform and HSV(Hue+Saturation+Value) in OpenCV.**
+  Hough transform and HSV(Hue+Saturation+Value) in OpenCV.** <br>
   
   ```shell
   python3 hough_hsv_lane_detection.py
@@ -186,7 +186,7 @@ To set up the project, follow these steps:<br><br>
 
 # 7. Practice lane detection and tracking using the ROS Gazebo simulation environment
   
-  7-1. ROS Gazebo simulation environment setup.
+  **7-1. ROS Gazebo simulation environment setup.** <br>
   ```shell
   cd ~/catkin_ws/src/
   ```
@@ -243,7 +243,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  7-2. Run the ROS Gazebo simulation environment.
+  **7-2. Run the ROS Gazebo simulation environment.** <br>
   ```shell
   cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/launch
   ```
@@ -270,9 +270,9 @@ To set up the project, follow these steps:<br><br>
   
   Replace the '**road_curve.png**' file with the new '**road_curve.png**' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.<br><br>
   
-  7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.<br><br>
+  **7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.** <br><br>
 
-  7-4. Practice detecting white and yellow lanes in the Gazebo simulation track.
+  **7-4. Practice detecting white and yellow lanes in the Gazebo simulation track.** <br>
   ```shell
   cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
   ```
@@ -287,7 +287,7 @@ To set up the project, follow these steps:<br><br>
 
   <br><br>
 
-  7-5. Practice detecting white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.
+  **7-5. Practice detecting white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.** <br>
   ```shell
   cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
   ```
@@ -302,7 +302,7 @@ To set up the project, follow these steps:<br><br>
   
   <br><br>
 
-  7-6. Practice detecting and tracking white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.
+  **7-6. Practice detecting and tracking white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.** <br>
   ```shell
   cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
   ```
@@ -317,7 +317,7 @@ To set up the project, follow these steps:<br><br>
   
   <br><br>
 
-  7-7. Practice detecting white and yellow lanes, extracting midpoints, and following them after converting the camera image to a bird's-eye view in the Gazebo simulation track.
+  **7-7. Practice detecting white and yellow lanes, extracting midpoints, and following them after converting the camera image to a bird's-eye view in the Gazebo simulation track.** <br>
   ```shell
   cd catkin_ws/src/ackermann_vehicle/ackermann_vehicle_gazebo/scripts
   ```
