@@ -14,9 +14,9 @@
 
 # Commands for practicing OpenCV(Python) based on ROS.
 
-Note: This practice was conducted in an Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
+**Note: This practice was conducted in an Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.** <br><br>
 
-To set up the project, follow these steps:<br><br>
+**To set up the project, follow these steps:** <br><br>
 
 # 1. Install libraries related to 'OpenCV'
   ```shell
@@ -48,11 +48,11 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Modify the 'CMakeLists.txt' file.
+  **Modify the 'CMakeLists.txt' file.**
   ```shell
   gedit CMakeLists.txt
   ```
-  Add the following commands to the file.
+  **Add the following commands to the file.**
   ```shell
   include_directories(
     ${catkin_INCLUDE_DIRS}
@@ -61,11 +61,11 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
   
-  Modify the 'package.xml' file.
+  **Modify the 'package.xml' file.**
   ```shell
   gedit package.xml
   ```
-  Add the following commands to the file.
+  **Add the following commands to the file.**
   ```shell
   <build_depend>opencv</build_depend>
   <exec_depend>opencv</exec_depend>
@@ -84,7 +84,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Download the Python practice code located in the 'OpenCV example source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder.<br>
+  **Download the Python practice code located in the 'OpenCV example source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder.** <br>
   
   ```shell
   chmod +x *
@@ -109,8 +109,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Download the files '**image.jpg**', '**road1.jpg**', and '**road2.jpg**' from the 'images' folder within the 'Practice source code' folder in the GitHub repository to the 'images' folder.
-  <br><br><br>
+  **Download the files 'image.jpg', 'road1.jpg', 'road2.jpg' from the 'images' folder within the 'Practice source code' folder in the GitHub repository to the 'images' folder.** <br><br><br>
 
 # 6. Perform OpenCV practice in the ROS environment
   ```shell
@@ -118,7 +117,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Note: Ensure to set the 'image_path' variable correctly to the path on your local PC within each Python practice code.<br><br>
+  **Note: Ensure to set the 'image_path' variable correctly to the path on your local PC within each Python practice code.** <br><br>
   
   **6-1. Practice displaying images using OpenCV.** <br>
   ```shell
@@ -163,7 +162,6 @@ To set up the project, follow these steps:<br><br>
   <br>
   
   **6-8. Practice lane detection in images using Hough transform in OpenCV.** <br>
-  
   ```shell
   python3 hough_lane_detection.py
   ```
@@ -226,13 +224,13 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Set Gazebo simulation environment variables in the bashrc file and perform sourcing.
+  **Set Gazebo simulation environment variables in the bashrc file and perform sourcing.** <br>
   ```shell
   gedit ~/.bashrc
   ```
   <br>
 
-  Caution: Make sure to accurately write the path on your local PC.<br>
+  **Caution: Make sure to accurately write the path on your local PC.** <br>
   
   ```shell
   export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/{your PC name}/catkin_ws/src/ackermann_vehicle/roadmap_generator
@@ -252,7 +250,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.<br><br>
+  **If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.** <br><br>
 
 ![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br><br>
 
@@ -261,14 +259,14 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
   
-  Replace the '**road_straight.png**' file with the new '**road_straight.png**' file located in the images folder within the Practice source code folder in the GitHub repository.<br><br>
+  **Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.** <br><br>
   
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_curve/materials/textures
   ```
   <br>
   
-  Replace the '**road_curve.png**' file with the new '**road_curve.png**' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.<br><br>
+  **Replace the 'road_curve.png' file with the new 'road_curve.png' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.** <br><br>
   
   **7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.** <br><br>
 
