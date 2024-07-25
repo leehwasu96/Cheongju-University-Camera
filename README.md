@@ -14,11 +14,16 @@
 
 # Commands for practicing OpenCV(Python) based on ROS.
 
+<br>
+
 **Note: This practice was conducted in an Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.** <br><br>
 
 **To set up the project, follow these steps:** <br><br>
 
 # 1. Install libraries related to 'OpenCV'
+  
+  <br>
+  
   ```shell
   pip install opencv-python
   ```
@@ -34,6 +39,9 @@
   <br><br>
 
 # 2. Create a package for practicing OpenCV in the ROS Noetic environment
+  
+  <br>
+  
   ```shell
   cd ~/catkin_ws/src
   ```
@@ -43,6 +51,9 @@
   <br><br>
 
 # 3. Set up CV bridge for integrating OpenCV with the ROS environment
+  
+  <br>
+  
   ```shell
   cd opencv_test
   ```
@@ -73,6 +84,9 @@
 <br><br>
 
 # 4. Create a 'scripts' folder for practicing OpenCV and build the catkin workspace
+  
+  <br>
+  
   ```shell
   cd ~/catkin_ws/src/opencv_test
   ```
@@ -84,7 +98,7 @@
   ```
   <br>
 
-  **Download the Python practice code located in the 'OpenCV example source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder.** <br>
+  **Download the Python practice code located in the 'OpenCV example source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder.** <br><br>
   
   ```shell
   chmod +x *
@@ -98,6 +112,9 @@
   <br><br>
 
 # 5. Create a 'images' folder for practicing OpenCV
+  
+  <br>
+  
   ```shell
   cd ~/catkin_ws/src/opencv_test
   ```
@@ -112,6 +129,9 @@
   **Download the files 'image.jpg', 'road1.jpg', 'road2.jpg' from the 'images' folder within the 'Practice source code' folder in the GitHub repository to the 'images' folder.** <br><br><br>
 
 # 6. Perform OpenCV practice in the ROS environment
+  
+  <br>
+  
   ```shell
   cd ~/catkin_ws/src/opencv_test/scripts
   ```
@@ -184,6 +204,8 @@
 
 # 7. Practice lane detection and tracking using the ROS Gazebo simulation environment
   
+  <br>
+
   **7-1. ROS Gazebo simulation environment setup.** <br>
   ```shell
   cd ~/catkin_ws/src/
@@ -252,19 +274,19 @@
 
   **If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.** <br><br>
 
-![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br><br>
+![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br><br><br>
 
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_straight/materials/textures
   ```  
-  **Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.** <br><br>
+  **Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.** <br><br><br>
   
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_curve/materials/textures
   ```
-  **Replace the 'road_curve.png' file with the new 'road_curve.png' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.** <br><br>
+  **Replace the 'road_curve.png' file with the new 'road_curve.png' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.** <br><br><br>
   
-  **7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.** <br><br>
+  **7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.** <br><br><br>
 
   **7-4. Practice detecting white and yellow lanes in the Gazebo simulation track.** <br>
   ```shell
