@@ -79,6 +79,9 @@
   ```shell
   gedit package.xml
   ```
+
+  <br>
+
   **Add the following commands to the file.**
   ```shell
   <build_depend>opencv</build_depend>
