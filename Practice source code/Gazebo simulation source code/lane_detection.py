@@ -21,8 +21,10 @@ class Unicon_CV():
             # White mask HSV range
             #lower_white = np.array([0, 0, 200])
             #upper_white = np.array([180, 25, 255])
-            lower_white = np.array([0, 0, 180])
-            upper_white = np.array([255, 30, 255])
+            #lower_white = np.array([0, 0, 180])
+            #upper_white = np.array([255, 30, 255])
+            lower_white = np.array([0, 0, 85])
+            upper_white = np.array([179, 25, 255])
 
             # Yellow mask HSV range
             lower_yellow = np.array([20, 100, 100])
