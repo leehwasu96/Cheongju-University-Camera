@@ -281,7 +281,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   python3 lane_detection.py
   ```
-  <br><br>
+  <br>
 
   https://github.com/user-attachments/assets/0c233db1-7853-4785-92df-6eda489a4d02
 
@@ -296,7 +296,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   python3 bev_lane_detection.py
   ```  
-  <br><br>
+  <br>
 
   https://github.com/user-attachments/assets/e1b4ca74-bac2-415b-a69b-c1c7d4fd4171
   
@@ -311,7 +311,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   python3 bev_lane_detection_and_tracking.py
   ```
-  <br><br>
+  <br>
 
   https://github.com/user-attachments/assets/45b8b816-3115-44de-b638-36efb349b97c
   
@@ -326,7 +326,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   python3 bev_lane_detection_and_tracking2.py
   ```
-  <br><br>
+  <br>
 
   https://github.com/user-attachments/assets/027ffb3b-de90-48b2-83ba-b873e99b3105
 
