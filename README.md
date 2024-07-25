@@ -281,10 +281,11 @@ To set up the project, follow these steps:<br><br>
   ```shell
   python3 lane_detection.py
   ```
-  <br>
+  <br><br>
 
-https://github.com/user-attachments/assets/0c233db1-7853-4785-92df-6eda489a4d02
+  https://github.com/user-attachments/assets/0c233db1-7853-4785-92df-6eda489a4d02
 
+  <br><br>
 
   7-5. Practice detecting white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.
   ```shell
@@ -294,10 +295,12 @@ https://github.com/user-attachments/assets/0c233db1-7853-4785-92df-6eda489a4d02
 
   ```shell
   python3 bev_lane_detection.py
-  ```
-  <br>
+  ```  
+  <br><br>
 
-https://github.com/user-attachments/assets/e1b4ca74-bac2-415b-a69b-c1c7d4fd4171
+  https://github.com/user-attachments/assets/e1b4ca74-bac2-415b-a69b-c1c7d4fd4171
+  
+  <br><br>
 
   7-6. Practice detecting and tracking white lanes after converting the camera image to a bird's-eye view in the Gazebo simulation track.
   ```shell
@@ -308,9 +311,11 @@ https://github.com/user-attachments/assets/e1b4ca74-bac2-415b-a69b-c1c7d4fd4171
   ```shell
   python3 bev_lane_detection_and_tracking.py
   ```
-  <br>
+  <br><br>
 
-https://github.com/user-attachments/assets/45b8b816-3115-44de-b638-36efb349b97c
+  https://github.com/user-attachments/assets/45b8b816-3115-44de-b638-36efb349b97c
+  
+  <br><br>
 
   7-7. Practice detecting white and yellow lanes, extracting midpoints, and following them after converting the camera image to a bird's-eye view in the Gazebo simulation track.
   ```shell
@@ -321,6 +326,8 @@ https://github.com/user-attachments/assets/45b8b816-3115-44de-b638-36efb349b97c
   ```shell
   python3 bev_lane_detection_and_tracking2.py
   ```
-  <br>
+  <br><br>
 
-https://github.com/user-attachments/assets/027ffb3b-de90-48b2-83ba-b873e99b3105
+  https://github.com/user-attachments/assets/027ffb3b-de90-48b2-83ba-b873e99b3105
+
+  <br><br>
