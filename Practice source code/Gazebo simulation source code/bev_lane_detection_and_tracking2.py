@@ -37,10 +37,12 @@ class Unicon_CV():
         hsv = cv2.cvtColor(bev_image, cv2.COLOR_BGR2HSV)
 
         # white mask hsv lange 
-        lower_white = np.array([0, 0, 200])
-        upper_white = np.array([180, 25, 255])
+        #lower_white = np.array([0, 0, 200])
+        #upper_white = np.array([180, 25, 255])
         #lower_white = np.array([0, 0, 180])
         #upper_white = np.array([255, 30, 255])
+        lower_white = np.array([0, 0, 85])
+        upper_white = np.array([179, 25, 255])
 
         # yello mask hsv lange
         lower_yellow = np.array([20, 100, 70])
