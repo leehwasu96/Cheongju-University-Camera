@@ -256,16 +256,12 @@
 
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_straight/materials/textures
-  ```
-  <br>
-  
+  ```  
   **Replace the 'road_straight.png' file with the new 'road_straight.png' file located in the images folder within the Practice source code folder in the GitHub repository.** <br><br>
   
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_curve/materials/textures
   ```
-  <br>
-  
   **Replace the 'road_curve.png' file with the new 'road_curve.png' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.** <br><br>
   
   **7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.** <br><br>
