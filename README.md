@@ -161,6 +161,7 @@ To set up the project, follow these steps:<br><br>
   python3 show_face_detection_image.py
   ```
   <br>
+  
   **6-8. Practice lane detection in images using Hough transform in OpenCV.**
   
   ```shell
