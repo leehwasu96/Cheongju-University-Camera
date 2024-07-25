@@ -120,61 +120,62 @@ To set up the project, follow these steps:<br><br>
 
   Note: Ensure to set the 'image_path' variable correctly to the path on your local PC within each Python practice code.<br><br>
   
-  6-1. Practice displaying images using OpenCV.
+  **6-1. Practice displaying images using OpenCV.**
   ```shell
   python3 show_image.py
   ```
   <br>
 
-  6-2. Practice converting images to gray scale using OpenCV.
+  **6-2. Practice converting images to gray scale using OpenCV.**
   ```shell
   python3 show_gray_scale_image.py
   ```
   <br>
 
-  6-3. Practice edge detection in images using OpenCV.
+  **6-3. Practice edge detection in images using OpenCV.**
   ```shell
   python3 show_edge_image.py
   ```
   <br>
 
-  6-4. Practice contour detection in images using OpenCV.
+  **6-4. Practice contour detection in images using OpenCV.**
   ```shell
   python3 show_contour_image.py
   ```
   <br>
 
-  6-5. Practice image rotation, resizing, and skew transformations using OpenCV.
+  **6-5. Practice image rotation, resizing, and skew transformations using OpenCV.**
   ```shell
   python3 show_turn_resize_affine_image.py
   ```
   <br>
 
-  6-6. Practice image filtering using Gaussian blur in OpenCV.
+  **6-6. Practice image filtering using Gaussian blur in OpenCV.**
   ```shell
   python3 show_blurred_image.py
   ```
   <br>
 
-  6-7. Practice face detection in images using OpenCV.  
+  **6-7. Practice face detection in images using OpenCV.**
   ```shell
   python3 show_face_detection_image.py
   ```
   <br>
-  6-8. Practice lane detection in images using Hough transform in OpenCV.
+  **6-8. Practice lane detection in images using Hough transform in OpenCV.**
   
   ```shell
   python3 hough_lane_detection.py
   ```
   <br>
 
-  6-9. Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.
+  **6-9. Practice lane detection in images using HSV(Hue+Saturation+Value) in OpenCV.**
   ```shell
   python3 hsv_lane_detection.py
   ```
   <br>
 
-  6-10. Practice lane detection in images using Hough transform and HSV(Hue+Saturation+Value) in OpenCV.
+  **6-10. Practice lane detection in images using<br> 
+  Hough transform and HSV(Hue+Saturation+Value) in OpenCV.**
   
   ```shell
   python3 hough_hsv_lane_detection.py
