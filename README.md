@@ -14,7 +14,7 @@
 
 # Commands for practicing OpenCV(Python) based on ROS.
 
-Note) that this practice was conducted in an Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
+Note: This practice was conducted in an Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
 
 To set up the project, follow these steps:<br><br>
 
@@ -84,7 +84,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Download the Python practice code located in the OpenCV example source code folder within the Practice source code folder in the GitHub repository to the 'scripts' folder.<br>
+  Download the Python practice code located in the 'OpenCV example source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder.<br>
   
   ```shell
   chmod +x *
@@ -109,7 +109,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
 
-  Download the files '**image.jpg**', '**road1.jpg**', and '**road2.jpg**' from the images folder within the Practice source code folder in the GitHub repository to the 'images' folder.
+  Download the files '**image.jpg**', '**road1.jpg**', and '**road2.jpg**' from the 'images' folder within the 'Practice source code' folder in the GitHub repository to the 'images' folder.
   <br><br><br>
 
 6. Perform OpenCV practice in the ROS environment:
@@ -251,7 +251,9 @@ To set up the project, follow these steps:<br><br>
   <br>
 
   If the track is not created as shown in the picture below, enter the following path and replace the image file('road_straight.png' and 'road_curve.png' file), then re-run the launch file.<br><br>
+
 ![track_error](https://github.com/user-attachments/assets/9f928fbf-0972-41ca-8003-a9adcefab43a)<br><br>
+
   ```shell
   cd ~/catkin_ws/src/ackermann_vehicle/roadmap_generator/road_straight/materials/textures
   ```
@@ -264,7 +266,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br>
   
-  Replace the '**road_curve.png**' file with the new '**road_curve.png**' file located in the images folder within the Practice source code folder in the GitHub repository.<br><br>
+  Replace the '**road_curve.png**' file with the new '**road_curve.png**' file located in the 'images' folder within the 'Practice source code' folder in the GitHub repository.<br><br>
   
   7-3. Download all the Python practice codes located in the 'Gazebo simulation source code' folder within the 'Practice source code' folder in the GitHub repository to the 'scripts' folder in the 'ackermann_vehicle_gazebo' package on your local PC.<br><br>
 
