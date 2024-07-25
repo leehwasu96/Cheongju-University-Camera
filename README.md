@@ -63,6 +63,9 @@
   ```shell
   gedit CMakeLists.txt
   ```
+
+  <br>
+
   **Add the following commands to the file.**
   ```shell
   include_directories(
