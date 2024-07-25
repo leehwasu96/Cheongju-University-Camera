@@ -14,7 +14,7 @@
 
 # Commands for practicing OpenCV(Python) based on ROS.
 
-Please note that this practice was conducted in an<br><br> 
+Note) that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
 
 To set up the project, follow these steps:<br><br>
