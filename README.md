@@ -18,7 +18,7 @@ Note: This practice was conducted in an Ubuntu 20.04 LTS and ROS(Robot Operating
 
 To set up the project, follow these steps:<br><br>
 
-1. Install libraries related to 'OpenCV':
+#1. Install libraries related to 'OpenCV':
   ```shell
   pip install opencv-python
   ```
@@ -33,7 +33,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br><br>
 
-2. Create a package for practicing OpenCV in the ROS Noetic environment:
+#2. Create a package for practicing OpenCV in the ROS Noetic environment:
   ```shell
   cd ~/catkin_ws/src
   ```
@@ -42,7 +42,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br><br>
 
-3. Set up CV bridge for integrating OpenCV with the ROS environment:
+#3. Set up CV bridge for integrating OpenCV with the ROS environment:
   ```shell
   cd opencv_test
   ```
@@ -72,7 +72,7 @@ To set up the project, follow these steps:<br><br>
   ```
 <br><br>
 
-4. Create a 'scripts' folder for practicing OpenCV and build the catkin workspace:
+#4. Create a 'scripts' folder for practicing OpenCV and build the catkin workspace:
   ```shell
   cd ~/catkin_ws/src/opencv_test
   ```
@@ -97,7 +97,7 @@ To set up the project, follow these steps:<br><br>
   ```
   <br><br>
 
-5. Create a 'images' folder for practicing OpenCV:
+#5. Create a 'images' folder for practicing OpenCV:
   ```shell
   cd ~/catkin_ws/src/opencv_test
   ```
@@ -112,7 +112,7 @@ To set up the project, follow these steps:<br><br>
   Download the files '**image.jpg**', '**road1.jpg**', and '**road2.jpg**' from the 'images' folder within the 'Practice source code' folder in the GitHub repository to the 'images' folder.
   <br><br><br>
 
-6. Perform OpenCV practice in the ROS environment:
+#6. Perform OpenCV practice in the ROS environment:
   ```shell
   cd ~/catkin_ws/src/opencv_test/scripts
   ```
@@ -182,7 +182,7 @@ To set up the project, follow these steps:<br><br>
   <br><br>
 
 
-7. Practice lane detection and tracking using the ROS Gazebo simulation environment:
+#7. Practice lane detection and tracking using the ROS Gazebo simulation environment:
   
   7-1. ROS Gazebo simulation environment setup.
   ```shell
