@@ -22,7 +22,7 @@
   ```shell
   pip install opencv-python
   ```
-  or
+  **or**
   ```shell
   pip3 install opencv-python
   ```
@@ -193,7 +193,7 @@
   ```shell
   git clone https://github.com/gihoonbackend/ackermann_vehicle.git
   ```
-  or
+  **or**
   ```shell
   git clone https://github.com/0-keun/ackermann_vehicle.git
   ```
